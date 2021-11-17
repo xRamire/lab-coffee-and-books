@@ -1,0 +1,16 @@
+<h1>List of places</h1>
+<a href="/">Volver al índice</a>
+<br>
+<br>
+<br>
+{{#each allPlaces}}
+    Name: {{name}}
+    <br>
+    Type: {{type}}
+    <br>
+    <a href="/places/details/{{_id}}">Details</a>
+    <br>
+    <br>
+    
+{{/each}}
+
